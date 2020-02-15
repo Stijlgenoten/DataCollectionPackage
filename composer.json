@@ -1,7 +1,7 @@
 {
     "name": "stijlgenoten/data-collection",
     "description": "Superlight static DataCollection package for Laravel",
-    "keywords": ["datacollection", "laravel"],
+    "keywords": ["datacollection", "laravel", "static data", "static array"],
     "type": "library",
     "license": "MIT",
     "authors": [
