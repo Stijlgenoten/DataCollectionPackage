@@ -1,0 +1,13 @@
+<?php
+
+namespace DummyNamespace;
+
+use Stijlgenoten\DataCollection\DataCollection;
+
+class DummyCollection extends DataCollection
+{
+	public static function RegisterData()
+	{
+		return [];
+	}
+}

@@ -1,0 +1,31 @@
+{
+    "name": "stijlgenoten/data-collection",
+    "description": "Superlight static DataCollection package for Laravel",
+    "keywords": ["datacollection", "laravel"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wilfred Lepelaar",
+            "email": "wilfredl@stijlgenoten.nl"
+        },
+        {
+            "name": "Mike van Vossen",
+            "email": "mikev@stijlgenoten.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Stijlgenoten\\DataCollection\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Stijlgenoten\\DataCollection\\DataCollectionServiceProvider"
+            ]
+        }
+    }
+}
