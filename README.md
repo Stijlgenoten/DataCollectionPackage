@@ -1,6 +1,6 @@
 # Superlight Laravel datacollection package
 
-## USAGE EXAMPLE
+## USAGE EXAMPLE:
 
 ```php
 return  ['red','white','blue'];
