@@ -9,6 +9,11 @@ class DataCollection
 		return  collect(static::RegisterData())->keys()->implode(',');
 	}
 
+	public static function KeysBy($keyname)
+	{
+		return  collect(static::RegisterData())->keyBy($keyname)->Keys();
+	}
+
 	public static function Values()
 	{
 		return  collect(static::RegisterData())->values()->implode(',');
