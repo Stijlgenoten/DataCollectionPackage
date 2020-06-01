@@ -43,6 +43,10 @@ class DataCollection
 	{
 		return [];
 	}
+
+	public static function Where($key, $value){
+		return collect( static::RegisterData() )->where($key, $value);
+	}
 }
 
 
