@@ -47,7 +47,11 @@ class DataCollection
 	public static function Where($key, $value){
 		return collect( static::RegisterData() )->where($key, $value);
 	}
+
+	public static function Find($key, $value){
+		return (object) collect( static::RegisterData() )->where($key, $value)->first();
+	}
 }
 
 
- ?>
+?>
